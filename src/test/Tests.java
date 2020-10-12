@@ -2,13 +2,28 @@ package test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import com.JoshuaVanBaalen.LabA.Calculate;
 
 class Tests {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		
+		Calculate calc;
+		
+		@BeforeEach
+		void init(){
+			calc = new Calculate();
+		}
+		
+		@Test
+		void addTest() {
+			
+		}
+		
 	}
 
 }
