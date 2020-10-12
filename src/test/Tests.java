@@ -32,5 +32,10 @@ class Tests {
 	void multTest() {
 		assertEquals(calc.multiply(5, 5), 25, "Expected 25");
 	}
+	
+	@Test
+	void multDiv() {
+		assertEquals(calc.divide(20, 2), 10D, "Expected 10");
+	}
 }
 
