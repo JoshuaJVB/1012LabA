@@ -34,8 +34,13 @@ class Tests {
 	}
 	
 	@Test
-	void multDiv() {
+	void divTest() {
 		assertEquals(calc.divide(20, 2), 10D, "Expected 10");
+	}
+	
+	@Test
+	void cirTest() {
+		assertEquals(calc.circumference(2), Math.PI*2, "Expected 2 pi");
 	}
 }
 
