@@ -17,5 +17,9 @@ public class Calculate {
 	public double divide(int a, int b) {
 		return (double)a / (double)b;
 	}
+	
+	public double circumference(double a) {
+		return a*Math.PI;
+	}
 
 }
